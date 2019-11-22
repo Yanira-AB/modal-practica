@@ -9,12 +9,16 @@
 </head>
 <body>
     <button id="btnModal">Modal</button>
+    <button id="btnCards">Crear Cards</button>
+    <section id="cards"></section>
     <div id="modal" class="modal">
         <div id="flex" class="flex">
-            <span id="close">x</span>
-            <p>Holi! :)</p>
+            <span id="close" type="button">x</span>
+            <section id="contenido">
+            </section>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script type="module" src="data/potter.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
